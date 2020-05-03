@@ -40,15 +40,22 @@ const obtienePlatillos = (data) => {
         data.forEach(doc =>{
             const platillo = doc.data();
             const columna = `
-            <div class="col-12 col-md-4">
-                <img src="imagenes/${platillo.imagen}" alt="${platillo.nombre}" >
-                <p>${platillo.nombre}</p>
+
+
+            
+            
+            <div class="col-12 col-md-4 ">
+
+            <br>
+            <br>
+            <br>
+                <img src="images/${platillo.imagen}" alt="${platillo.nombre}">
+                <p class="text-white">${platillo.nombre}</p>
                 <p class="text-danger">$${platillo.precio}</p>
                 <a href="https://www.paypal.me/josueromo/${platillo.precio}" target="_blank">
                     <button class="btn btn-primary">Pagar Ahora</button>
                 </a>
             </div>
-            
             `;
 
             html += columna;
