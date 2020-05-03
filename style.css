@@ -292,6 +292,11 @@ html
   transition-delay:.45s;
 }
 
+.responsivo{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 
 .cards-list {
   z-index: 0;
