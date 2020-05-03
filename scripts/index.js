@@ -57,7 +57,7 @@ const obtienePlatillos = (data) => {
         lsitadeplatillos.innerHTML = html;
     }
     else{
-        lsitadeplatillos.innerHTML = '<p class="text-center"> Ingrese para poder ver nuestro menu</p>'
+        lsitadeplatillos.innerHTML = '<img src="https://images.squarespace-cdn.com/content/5a61f37ae45a7c70210b916b/1516973560749-9ZBMVC78835AP9VQJOOU/Welcome.png?format=750w&content-type=image%2Fpng" alt="Italian Trulli">'
     }
 
 };
